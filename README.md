@@ -12,3 +12,7 @@ gcc -Wall -Wextra -O2 -c fixer.c -o fixer.o
 gcc -Wall -Wextra -O2 -c winapi.c -o winapi.o
 gcc -o war3-fixer.exe main.o config.o fixer.o winapi.o
 ```
+
+## 使用说明
+
+将`war3-fixer.exe`放到魔兽争霸3的运行目录下（包含War3.exe的目录），双击运行`war3-fixer.exe`即可自动启动窗口模式的魔兽游戏。
